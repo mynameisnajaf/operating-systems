@@ -7,7 +7,7 @@ PID=$!
 
 echo "Process PID: $PID"
 
-if ps - p "$PID" > /dev/null; then
+if ps -p "$PID" > /dev/null; then
     echo "Process is running."
 else
     echo "Process is not running."
